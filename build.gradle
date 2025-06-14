@@ -6,6 +6,7 @@ plugins {
 group = 'com.github.YourDaniil'
 version = '1.0.4'
 
+
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
@@ -30,7 +31,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/YourDaniil/RentCar")
             credentials {
                 username = System.getenv("GITHUB_ACTOR") ?: "YourDaniil"
-                password = System.getenv("GITHUB_TOKEN") ?: "ghp_Wtb5wSN****************6BmaKPk4XpeOf"
+                password = System.getenv("GITHUB_TOKEN") ?: "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"
 
             }
         }
