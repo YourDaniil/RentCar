@@ -30,7 +30,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/YourDaniil/RentCar")
             credentials {
                 username = System.getenv("GITHUB_ACTOR") ?: "YourDaniil"
-                password = System.getenv("GITHUB_TOKEN") ?: "ghp_Wtb5wSN****************6BmaKPk4XpeOf"
+                password = System.getenv("GITHUB_TOKEN") ?: "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"
 
             }
         }
